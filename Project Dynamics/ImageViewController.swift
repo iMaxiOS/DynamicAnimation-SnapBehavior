@@ -10,11 +10,11 @@ import UIKit
 
 class ImageViewController: UIViewController {
     
-    var myView = UIView()
-    var nameLabel = UILabel()
+    private var myView = UIView()
+    private var nameLabel = UILabel()
     
-    var animation: UIDynamicAnimator!
-    var snapBehavior: UISnapBehavior!
+    private var animation: UIDynamicAnimator!
+    private var snapBehavior: UISnapBehavior!
     
     override func viewDidLoad() {
         super.viewDidLoad()
